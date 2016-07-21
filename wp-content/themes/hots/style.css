@@ -1,0 +1,31 @@
+/*
+Theme Name: HOTS
+Author: Pashutaz
+Author URI: https://wordpress.org/
+Description: hots theme
+Version: 1.0
+*/
+
+#logo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+#footer{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    border-top: 1px solid #cccccc;
+}
+.post-preview{
+    border-bottom: 1px dashed cadetblue;
+}
+.post-preview:last-child{
+    border-bottom: none;
+}
+.block{
+    padding: 15px;
+}
+
+
