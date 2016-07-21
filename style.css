@@ -1,0 +1,282 @@
+.container{
+    width: 940px;
+    margin: 0 auto; 
+}
+#header {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px 0;  
+}
+
+.logo {
+    float: left;
+}
+
+.nav {
+    float: right;
+    padding-top: 5px;
+}
+.nav li {
+
+    float: left;
+    margin-right: 40px;
+}
+.nav a:hover{
+    color: #fed136;
+}
+.nav li:last-child{
+    margin-right: 0;
+}
+.nav a{
+    text-transform: uppercase;
+    font: 14px Arrial, sans-sarif;
+    color: #ffffff;
+}
+
+
+#home {
+    height: 700px;
+    width: 1400px;
+    padding-top:278px; 
+    text-align: center;
+    color: #ffffff;
+    background: #222 url(images/Background-Image.png) no-repeat center bottom ;
+    background-size: cover;   
+}
+
+#home h3 {
+ font: 400 40px Arial,sans-sarif;
+    margin-bottom: 40px;
+    
+}
+
+#home h1 {
+    font: 400 75px Arial;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #fed136;
+    color: #ffffff;
+    font: 700 24px Arial bold;
+    text-transform: uppercase;  
+    cursor: pointer;
+    border-radius: 4px;
+}
+.btn:hover{
+    background: #daae17; 
+    color: #fff;
+}
+
+.box{
+    padding:120px 0;
+    
+}
+
+#servises {
+    text-align: center;
+     
+}
+
+h2.title {
+    font: 700 40px / 75px Arial,sans-serif;
+    color: #222222;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.item-footer h5.title{
+margin-bottom: 4px;    
+}
+
+h5.title{
+    margin-bottom: 10px;
+    color: #333333;
+    font: 700 18px Arial;
+}
+
+.descr {
+    text-align: center;
+    font-size: 16px;
+    color: #777777;
+    margin-bottom: 10px;
+    
+}
+
+.services-item p {
+font-size: 18px;
+    line-height: 24px;
+    color: #777777;
+    
+}
+
+.services-item {
+    float: left;
+    width: 33.33%;
+    padding-top: 90px ;
+}
+
+.commerse {
+    background: url(images/commerse.png) no-repeat center top;
+}
+
+.responsive {
+    background: url(images/responsive.png) no-repeat center top;
+}
+
+.security {
+    background: url(images/security.png) no-repeat center top;
+}
+
+.services-wrap,
+.portfolio-wrap{
+      padding-top: 70px;
+}
+.services-wrap:after {
+
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  content: ".";
+  font-size: 0;
+    
+}
+
+#portfolio {
+    padding-top: 200px;
+    text-align: center;
+    background-color: #f7f7f7;
+ 
+}
+
+.portfolio-wrap{
+    padding-top: 70px;  
+}
+.portfolio-wrap:after {
+   
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  content: ".";
+  font-size: 0;
+    
+}
+
+.portfolio-item {
+    width: 31%;
+    margin-bottom: 50px;
+    margin-right: 3.5%;
+    background-color: #ffffff;
+    float: left;
+/*    padding-bottom: 30px;*/
+}
+.portfolio-item:nth-child(3n){
+    margin-right: 0;
+}
+.portfolio-item:nth-last-child(1),
+.portfolio-item:nth-last-child(2),
+.portfolio-item:nth-last-child(3){
+    margin-bottom: 0;
+}
+
+.item-footer span {
+    color: #737373;
+    font: 400 14px 'Times New Roman';
+}
+
+.item-footer {
+    padding: 25px 20px  ; 
+}
+
+#about {
+    text-align: center;
+}
+
+.about-wrap {
+    padding-top: 70px;
+}
+
+.about-text {
+    width: 35%;
+}
+
+
+.about-img {
+    width: 30%;
+
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-upper{
+    text-transform: uppercase;
+}
+
+
+
+.about-text h5 {
+    line-height: 24px;
+}
+
+.about-text p{
+    color: #777777;
+    font: 400 16px 'Times New Roman';
+    line-height: 24px;
+}
+
+.about-img img{
+    display: inline-block;
+    width: 169px;
+    height: 169px;
+    border-radius: 50%;
+}
+.title span{
+    text-transform: uppercase;
+}
+.about-img:after{
+    content: "";
+    display: block;
+    height: 94px;
+    width: 3px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+}
+
+
+
+.about-link {
+background: url(images/about-image-begins.png);    
+    
+}
+
+#team {
+/*    background-color: #f9f9f9;*/
+}
+
+h2.title {
+    text-align: center;
+}
+
+.cat {
+    color: #777777;
+    font: 400 14px Arial;
+
+}

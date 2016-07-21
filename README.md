@@ -1,1 +1,0 @@
-# pashutaz.github.io
